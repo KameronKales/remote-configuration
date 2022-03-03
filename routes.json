@@ -1,0 +1,15 @@
+{
+  "/": {
+    "fail": "false",
+    "wait": "0"
+  },
+  "/slow": {
+    "fail": "false",
+    "wait": "3000"
+  },
+  "/auth": {
+    "fail": "true",
+    "errorMessage": "Unauthorized",
+    "errorCode": "403"
+  }
+}
